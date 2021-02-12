@@ -32,7 +32,7 @@ const MovieSearch = () => {
     <div className="movie-search-component">
       <div className="movie-search-title">React Movie Search App</div>
       <form className="movie-search-form" onSubmit={searchMovie}>
-        <label htmlFor="afegw">Search Movie</label>
+        <label htmlFor="query">Search Movie</label>
         <input
           className="search-input"
           type="text"
