@@ -1,0 +1,44 @@
+.movie-card {
+  display: flex;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 0.2px solid #636363;
+  margin-top: 3em;
+  padding: 2em 5em;
+  width: 70vw;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2em;
+  text-align: left;
+}
+
+.grey-info {
+  display: flex;
+  flex-direction: column;
+  color: #848484;
+  font-size: 1.1rem;
+  margin-bottom: 1em;
+}
+
+.movie-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: .1em;
+}
+
+.movie-desc {
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 22px;
+}
+
+@media screen and (max-width: 1000px) {
+  .movie-card {
+    width: 85vw;
+  }
+}
+
